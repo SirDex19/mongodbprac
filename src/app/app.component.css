@@ -1,0 +1,408 @@
+/* .example-button-row {
+display: table-cell;
+width: 15%;
+margin: 5px 0px 0px 0px;
+float: right;
+}
+
+.example-flex-container {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-right: 60%;
+}
+
+.example-button-container {
+display: flex;
+justify-content: center;
+width: 0px;
+} */
+
+
+/* .column { */
+
+
+/* width: auto; */
+
+
+/* margin-top: 5%; */
+
+
+/* position: relative; */
+
+
+/*}
+
+
+/* .button {
+    float: left;
+    width: 3%;
+    padding: 10px;  
+    margin-top: 3%;
+    margin-left: 1%;
+} */
+
+
+/* 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    width: 100%; ;
+    height: 80px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 32px;
+    position: relative;
+    left: 10px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+
+
+#button4 {
+    right: 7px;
+    width: 15%;
+}
+
+#button5 {
+    width: 15%;
+}
+
+.mat-select-panel {
+    min-width: 112px;
+    max-width: 280px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-height: 230px;
+    min-width: 100%;
+}
+
+table {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    font-family: Graphik, sans-serif;
+}
+
+.mat-cell,
+.mat-header-cell {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 11px;
+}
+
+.paginator-container {
+    justify-content: center !important;
+}
+
+    ::ng-deep .mat-paginator-container {
+    justify-content: center !important;
+    width: 50%;
+}
+
+.mat-form-field {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.modal {
+    content: center;
+} */
+
+
+/* .filters{
+    width: 100% !important;
+    font-family: 'Graphik', sans-serif; */
+
+
+/* position: relative; */
+
+
+/* font-weight: bold; */
+
+
+/*}
+/* 
+.filterlabel{
+    font-weight: bold;
+} */
+
+
+/* .btn {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.content-div {
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: 'Graphik', sans-serif;
+}
+
+
+.mat-toolbar{
+    background-color: blue;
+    color: white;
+} */
+
+
+/* .mat-header-cell{
+background-color: #add8e6;
+} */
+
+
+/* 
+th {
+    font-weight: bold;
+    color:blue;
+    font-family: 'Graphik', sans-serif;
+}
+
+td {
+    font-family: 'Graphik', sans-serif;
+} */
+
+
+/* ::ng-deep .mat-form-field-flex > .mat-form-field-infix { 
+    padding: 0.1em 0px !important;
+  }
+  
+  ::ng-deep .mat-form-field-label-wrapper {
+     top: -1.5em; 
+  }
+  
+  ::ng-deep .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+      transform: translateY(-1.1em) scale(.75);
+      width: 133.33333%;
+  } */
+
+
+/* DEX */
+
+.custom-button1 {
+    background-color: blue;
+}
+
+.custom-button2 {
+    background-color: blue;
+    margin-left: 10px
+}
+
+.actionItemTable {
+    /* width: 100vw; */
+    margin-left: 20px;
+    display: table;
+    text-align: center;
+    border-collapse: separate;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+td::first-letter {
+    text-transform: uppercase;
+}
+
+th {
+    text-align: center !important;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+td {
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    width: auto;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    font-family: 'Graphik', sans-serif;
+}
+
+.example-button-row {
+    display: table-cell;
+    width: 15%;
+    margin: 5px 0px 0px 0px;
+    float: right;
+}
+
+.example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 60%;
+}
+
+.example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 0px;
+}
+
+.button-container {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    position: sticky;
+    right: -70px;
+}
+
+.tablediv {
+    margin-left: 9%;
+    position: relative;
+    width: 85%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 32px;
+    position: relative;
+    left: 10px;
+}
+
+h4,
+h5 {
+    font-size: 15px;
+}
+
+.mat-select-panel {
+    min-width: 112px;
+    max-width: 280px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-height: 230px;
+    min-width: 100%;
+}
+
+.loading {
+    width: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    font-family: Graphik, sans-serif;
+}
+
+.mat-cell,
+.mat-header-cell {
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 11px;
+}
+
+.paginator-container {
+    justify-content: center !important;
+}
+
+::ng-deep .mat-paginator-container {
+    justify-content: center !important;
+    width: 50%;
+}
+
+.mat-form-field {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.modal {
+    content: center;
+}
+
+.filters {
+    width: 100% !important;
+    font-family: 'Graphik', sans-serif;
+}
+
+.content-div {
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-family: 'Graphik', sans-serif;
+}
+
+.mat-toolbar {
+    background-color: blue;
+    color: white;
+}
+
+th {
+    font-weight: bold;
+    color: blue;
+}
+
+.mat-spinner {
+    margin: auto;
+}
+
+.entbttn,
+.actbttn {
+    font-size: 12px;
+}
+
+
+/* table {
+    overflow: scroll;
+} */
+
+.mat-row,
+.mat-header-row {
+    width: 450vw;
+}
+
+.mat-header-row {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background-color: inherit;
+}
+
+@media screen and (max-width: 1000px) {
+    .actionItemTable {
+        overflow-x: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .actionItemTable {
+        display: block;
+    }
+}
+
+.row {
+    margin-left: 3px;
+}
